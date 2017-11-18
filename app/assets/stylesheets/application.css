@@ -1,15 +1,101 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html{
+    font-family:Arial, Helvetica, Sans-Serif;
+    color:violet;
+    
+}
+
+.container{ width:80%; margin:auto;
+    
+}
+.time-estimate 
+  { 
+      color:violet;
+    font-weight:bold;
+    font-size:12px;
+    font-style:oblique;
+    border-radius:60px;
+    padding:2px 8px 2px 8px;
+    background-color:#ff00bf;
+    margin-bottom:25px;
+    border:2px solid teal; 
+}
+li{background-color:#4dffff;
+color:white;
+    margin-bottom: 10px;
+    padding:5px 10px 5px 10px;
+    border:2px solid white;
+    border-radius:5px;
+
+}
+
+ h1{
+     text-align:center;
+     }
+
+     ul{
+         list-style:none;
+         padding:5px;
+         margin:10px;
+         box-shadow:10px 10px 5px #4dffff;
+         
+     }
+     
+   
+    
+    #img-div{
+        width:93%;
+        margin:auto;}
+#todo-list{ float:right;
+    width:40%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#iframe{ float:left;
+    width:50%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur205.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur205.png), progress !important;} /* End http://www.cursors-4u.com */
+
+a{ 
+    text-decoration: none;
+    color: yellow;
+    vertical-align:baseline;
+    padding:6px;
+}
+
+#goback_button{
+    background-color:#00b8e6;
+}
+
+#goback_button:hover{
+    background-color: #e6e6ff;
+}
+
+
+#delete_button{
+    background-color:#e60000;
+}
+
+#delete_button:hover{
+    background-color:#e6e6ff;
+}
+
+
+
+#edit_button{
+    background-color:#00e673;
+}
+
+#edit_button:hover{
+    background-color:#e6e6ff;
+}
+
+
+
+
+
+
+
+
