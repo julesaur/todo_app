@@ -22,7 +22,7 @@ data-config="{'skin':'skins/wikmini/funkyMiniDeepOcean/skin.css','volume':20,'au
         <% @todos.each do |todo| %>
         <li>
            <input type="checkbox"> 
-            <a href="show/<%=todo.id%>"> 
+            <a href="/todo/show/<%=todo.id%>"> 
             <%=todo.description%>
            </a>
            <span class="time-estimate"> <%=todo.pomodoro_estimate%></span>
